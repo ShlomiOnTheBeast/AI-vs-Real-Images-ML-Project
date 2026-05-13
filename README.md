@@ -20,6 +20,39 @@ The learning algorithm used in this project is **K-Nearest Neighbors (KNN)**, im
 
 ---
 
+## Shortcuts 🛣️
+
+--> **Main notebook:**  
+[AI_VS_Real_Images.ipynb](./AI_VS_Real_Images.ipynb)
+
+--> **Dataset source:**  
+[AI vs Real Images Dataset on Kaggle](https://www.kaggle.com/datasets/rhythmghai/ai-vs-real-images-dataset)
+
+--> **Final model section:**  
+Look for: `Final Model Evaluation on Test Set`
+
+--> **Grid Search CV section:**  
+Look for: `Grid Search Cross Validation`
+
+---
+
+## Table of Contents 📌
+
+- [About the Project](#about-the-project-)
+- [Dataset](#dataset-)
+- [Project Workflow](#project-workflow-)
+- [Feature Engineering Methods](#feature-engineering-methods-)
+- [KNN From Scratch](#knn-from-scratch-)
+- [Model Evaluation](#model-evaluation-)
+- [Grid Search Cross Validation](#grid-search-cross-validation-)
+- [Final Results](#final-results-)
+- [Project Structure](#project-structure-)
+- [How to Run](#how-to-run-)
+- [Use of AI Tools](#use-of-ai-tools-disclosure-)
+- [Final Conclusion](#final-conclusion-)
+
+---
+
 ## About the Project 📌
 
 The goal of this project is to classify images into two classes:
@@ -59,39 +92,6 @@ Final split:
 | --- | ---: |
 | Train | 400 |
 | Test | 100 |
-
----
-
-## Shortcuts 🛣️
-
---> **Main notebook:**  
-[AI_VS_Real_Images.ipynb](./AI_VS_Real_Images.ipynb)
-
---> **Dataset source:**  
-[AI vs Real Images Dataset on Kaggle](https://www.kaggle.com/datasets/rhythmghai/ai-vs-real-images-dataset)
-
---> **Final model section:**  
-Look for: `Final Model Evaluation on Test Set`
-
---> **Grid Search CV section:**  
-Look for: `Grid Search Cross Validation`
-
----
-
-## Table of Contents 📌
-
-- [About the Project](#about-the-project-)
-- [Dataset](#dataset-)
-- [Project Workflow](#project-workflow-)
-- [Feature Engineering Methods](#feature-engineering-methods-)
-- [KNN From Scratch](#knn-from-scratch-)
-- [Model Evaluation](#model-evaluation-)
-- [Grid Search Cross Validation](#grid-search-cross-validation-)
-- [Final Results](#final-results-)
-- [Project Structure](#project-structure-)
-- [How to Run](#how-to-run-)
-- [Use of AI Tools](#use-of-ai-tools-disclosure-)
-- [Final Conclusion](#final-conclusion-)
 
 ---
 
