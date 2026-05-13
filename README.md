@@ -335,3 +335,83 @@ zipfile
 pathlib
 gdown
 hashlib
+```
+
+**Note:** No ready-made KNN implementation is used. The KNN algorithm is implemented manually in the notebook.
+
+---
+
+## How to Use the Notebook 👨‍💻
+
+The notebook is organized as a full machine learning pipeline.
+
+Recommended reading order:
+
+1. Start with the project introduction and dataset explanation.
+2. Review the dataset loading and balancing steps.
+3. Continue to the feature engineering methods.
+4. Review the KNN implementation from scratch.
+5. Examine the baseline experiment.
+6. Review the hyperparameter experiments.
+7. Focus on the Grid Search Cross Validation section.
+8. Review the final model evaluation and conclusion.
+
+The most important sections are:
+
+| Section | Purpose |
+| :--- | :--- |
+| Dataset Loading | Loads and organizes the images |
+| Feature Engineering | Converts images into numerical vectors |
+| KNN From Scratch | Implements the learning algorithm |
+| Hyperparameter Experiments | Compares different configurations |
+| Grid Search CV | Selects the final model correctly |
+| Final Evaluation | Evaluates the final model on the test set |
+
+
+---
+
+## Key Takeaways 🧠
+
+* Raw flattened pixels were not strong enough for this task.
+* Histogram-based features performed much better.
+* Color Histogram was the strongest feature representation.
+* Manhattan distance performed well with histogram features.
+* Macro F1 was more informative than Accuracy because both classes are important.
+* Grid Search CV allowed us to select the final model without using the test set for model selection.
+
+---
+
+## Use of AI Tools (Disclosure) 🖨️
+
+This project made limited use of AI-based tools as a productivity aid during development, debugging, explanation writing, and documentation.
+
+### Purpose of Use
+
+AI tools were used for:
+* Planning the notebook structure
+* Improving explanations and markdown sections
+* Reviewing the KNN implementation logic
+* Explaining evaluation metrics
+* Helping document feature engineering methods
+* Improving README wording
+
+All code, outputs, and explanations were reviewed and understood by the project members.
+
+---
+
+## Final Conclusion 🧠
+
+The main conclusion of this project is that feature representation has a major impact on model performance.
+
+The baseline RGB Flatten representation performed poorly because raw pixel positions were not enough to separate AI-generated and real images.
+
+Histogram-based features performed much better.
+
+The final selected model used **Color Histogram** features with KNN and achieved strong balanced performance on both classes.
+
+This project demonstrates the importance of:
+* proper preprocessing
+* feature engineering
+* hyperparameter tuning
+* cross validation
+* correct final test evaluation
