@@ -42,13 +42,13 @@ Look for: `Grid Search Cross Validation`
 - [Dataset](#dataset-)
 - [Project Workflow](#project-workflow-)
 - [Feature Engineering Methods](#feature-engineering-methods-)
-- [KNN From Scratch](#knn-from-scratch-)
+- [KNN From Scratch](#knn-from-scratch-%EF%B8%8F)
 - [Model Evaluation](#model-evaluation-)
 - [Grid Search Cross Validation](#grid-search-cross-validation-)
 - [Final Results](#final-results-)
 - [Project Structure](#project-structure-)
 - [How to Run](#how-to-run-)
-- [Use of AI Tools](#use-of-ai-tools-disclosure-)
+- [Use of AI Tools](#use-of-ai-tools-disclosure-%EF%B8%8F)
 - [Final Conclusion](#final-conclusion-)
 
 ---
