@@ -9,6 +9,7 @@ The project focuses on building the pipeline manually and explaining each step c
 
 - Dataset loading
 - Data balancing
+- Train/Test spliting
 - Feature engineering
 - KNN implementation from scratch
 - Hyperparameter experiments
