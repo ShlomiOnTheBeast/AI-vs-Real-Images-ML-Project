@@ -227,3 +227,111 @@ In total, the Grid Search evaluated:
 
 ```text
 96 configurations
+```
+
+Each configuration was evaluated using:
+`5-Fold Cross Validation`
+
+For each configuration:
+1. The training set was split into 5 folds.
+2. The model was trained on 4 folds.
+3. The model was validated on the remaining fold.
+4. This process was repeated 5 times.
+5. The average validation Macro F1-score was calculated.
+
+The final model was selected according to the highest **mean validation Macro F1-score**.
+This approach prevents choosing the final model directly according to the test set.
+
+---
+
+## Final Selected Model 🏆
+The best configuration selected by Grid Search CV was:
+
+| Parameter | Value |
+| :--- | :--- |
+| Feature Method | Color Histogram |
+| Image Size | 64x64 |
+| Bins | 32 |
+| k | 9 |
+| Distance Metric | Manhattan |
+
+After selecting this configuration, the final KNN model was trained on the full training set and evaluated once on the test set.
+
+---
+
+## Final Results ✅
+The final selected model achieved:
+
+| Metric | Score |
+| :--- | :--- |
+| Test Accuracy | 0.84 |
+| Test Macro F1 | 0.8399 |
+
+### Final Confusion Matrix Summary
+| Class | Correctly Classified |
+| :--- | :--- |
+| AI-generated | 43 / 50 |
+| Real | 41 / 50 |
+
+### Per-Class Performance
+| Class | F1-score |
+| :--- | :--- |
+| AI | 0.8431 |
+| Real | 0.8367 |
+
+---
+
+## Comparison to Baseline
+Compared to the baseline model, the final selected model improved significantly:
+
+| Model | Accuracy | Macro F1 |
+| :--- | :--- | :--- |
+| Baseline RGB Flatten KNN | 0.48 | 0.3404 |
+| Final Selected Model | 0.84 | 0.8399 |
+
+---
+
+## Important Note About the Results ⚠️
+The project includes both:
+* Exploratory test-set experiments
+* The final selected model chosen by Grid Search CV
+
+Some exploratory experiments may show slightly different or even slightly higher test-set results. 
+
+However, the **Final Selected Model** is considered the main result of the project because it was selected using the correct machine learning process:
+1. Model selection using cross-validation on the training set.
+2. Training the final model on the full training set.
+3. Evaluating the final model once on the test set.
+
+This prevents choosing the final model directly based on the test set.
+
+---
+
+## Project Structure 🧌
+| File | Short Summary |
+| :--- | :--- |
+| `AI_VS_Real_Images.ipynb` | Full project notebook with code, explanations, outputs, visualizations, experiments, Grid Search CV, and final evaluation |
+| `README.md` | Project overview and documentation |
+
+---
+
+## How to Run 🏃
+This project was developed and tested in **Google Colab**.
+
+### Recommended Way
+1. Open the notebook in Google Colab.
+2. Run all cells from top to bottom.
+3. The dataset is downloaded inside the notebook.
+4. Outputs, visualizations, experiment tables, and final results are displayed inside the notebook.
+
+### Requirements
+The notebook uses common Python libraries:
+```python
+numpy
+pandas
+matplotlib
+PIL
+zipfile
+pathlib
+gdown
+hashlib
