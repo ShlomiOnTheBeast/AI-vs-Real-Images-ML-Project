@@ -95,7 +95,7 @@ The original dataset from Kaggle contains:
 | Class | Number of Images |
 | --- | ---: |
 | AI-generated | 250 |
-| Real | 250 |
+| Real | 745 |
 
 After balancing, the dataset contains:
 
