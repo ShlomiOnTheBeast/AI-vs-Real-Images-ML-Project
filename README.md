@@ -104,7 +104,7 @@ The original dataset is available on Kaggle:
 
 For convenience, the fixed ZIP file used in this project is also available as a GitHub Release asset:
 
-[Download dataset_fixed.zip](https://github.com/ShlomiOnTheBeast/AI-vs-Real-Images-ML-Project/releases/download/v1.0/dataset_fixed.zip)
+[Download dataset_fixed.zip](https://github.com/Shlomi-Hazan/AI-vs-Real-Images-ML-Project/releases/download/v1.0/dataset_fixed.zip)
 
 The notebook automatically downloads and extracts the dataset during execution.
 
