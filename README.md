@@ -39,8 +39,8 @@ Look for: `Grid Search Cross Validation`
 ## Table of Contents 📌
 
 - [About the Project](#about-the-project-)
-- [Dataset](#dataset-)
 - [Dataset Download](#dataset-download-)
+- [Dataset](#dataset-)
 - [Project Workflow](#project-workflow-)
 - [Feature Engineering Methods](#feature-engineering-methods-)
 - [KNN From Scratch](#knn-from-scratch-%EF%B8%8F)
@@ -73,12 +73,29 @@ Since the original dataset was imbalanced, we applied undersampling to create a 
 
 ---
 
+## Dataset Download 📦
+
+**AI vs Real Images Dataset** 
+The original dataset was taken from Kaggle and available on:
+
+[AI vs Real Images Dataset on Kaggle](https://www.kaggle.com/datasets/rhythmghai/ai-vs-real-images-dataset)
+
+For convenience, the fixed ZIP file used in this project is also available as a GitHub Release asset:
+
+[Download dataset_fixed.zip](https://github.com/Shlomi-Hazan/AI-vs-Real-Images-ML-Project/releases/download/v1.0/dataset_fixed.zip)
+
+The notebook automatically downloads and extracts the dataset during execution.
+
+---
+
 ## Dataset 📦
 
-The dataset was taken from Kaggle:
+The original dataset from Kaggle contains:
 
-**AI vs Real Images Dataset**  
-https://www.kaggle.com/datasets/rhythmghai/ai-vs-real-images-dataset
+| Class | Number of Images |
+| --- | ---: |
+| AI-generated | 250 |
+| Real | 250 |
 
 After balancing, the dataset contains:
 
@@ -93,20 +110,6 @@ Final split:
 | --- | ---: |
 | Train | 400 |
 | Test | 100 |
-
----
-
-## Dataset Download 📦
-
-The original dataset is available on Kaggle:
-
-[AI vs Real Images Dataset on Kaggle](https://www.kaggle.com/datasets/rhythmghai/ai-vs-real-images-dataset)
-
-For convenience, the fixed ZIP file used in this project is also available as a GitHub Release asset:
-
-[Download dataset_fixed.zip](https://github.com/Shlomi-Hazan/AI-vs-Real-Images-ML-Project/releases/download/v1.0/dataset_fixed.zip)
-
-The notebook automatically downloads and extracts the dataset during execution.
 
 ---
 
